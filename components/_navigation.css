@@ -1,6 +1,7 @@
 .navigation {
   display: flex;
   justify-content: space-around;
+
   /* align-self: center; */
   padding: 10px;
   background-color: #22c1c3;

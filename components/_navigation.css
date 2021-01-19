@@ -1,4 +1,8 @@
 .navigation {
+  display: flex;
+  justify-content: space-around;
+  /* align-self: center; */
+  padding: 10px;
   background-color: #22c1c3;
   box-shadow: 1px 4px 29px 10px rgba(4, 23, 24, 0.21);
   -webkit-box-shadow: 1px 4px 29px 10px rgba(4, 23, 24, 0.21);

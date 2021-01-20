@@ -19,9 +19,9 @@
 
 .quiz-card__bookmark--icon {
   position: absolute;
-  height: 40px;
-  right: 10px;
-  top: -15px;
+  height: 30px;
+  right: 30px;
+  top: -1px;
 }
 
 .quiz-card__btn {
@@ -50,4 +50,5 @@
   margin-left: 2px;
   margin-bottom: 5px;
   width: 48%;
+  text-align: center;
 }

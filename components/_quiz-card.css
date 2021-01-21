@@ -15,10 +15,10 @@
 
 .quiz-card__bookmark {
   position: absolute;
-  height: 30px;
+  /* height: 40px; */
   width: 0;
-  right: 20px;
-  top: -1px;
+  right: 35px;
+  top: -10px;
   /* border: 15px solid var(--aqua);
   border-bottom-color: transparent; */
 }

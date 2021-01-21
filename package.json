@@ -5,7 +5,8 @@
     "prettier:write": "prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
     "test": "htmlhint && prettier --check . && npm run stylelint",
-    "start": "live-server --port=4000 --no-css-inject"
+    "start": "live-server --port=4000 --no-css-inject",
+    "stylelint-check": "stylelint-config-prettier-check"
   },
   "keywords": [],
   "author": "Anja Seeba <ahoi@achtsam.media>",

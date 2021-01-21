@@ -5,21 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QUIZ APP</title>
     <link rel="stylesheet" href="./components/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/87c9eac3be.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body class="app-grid">
-    <section class="header"></section>
-    <section class="content">
-      <head></head>
-      <main></main>
+    <section class="header">
+      <h1 class="header__headline p-10">QUIZ APP</h1>
     </section>
-    <section class="navigation p-10">
-      <a href="index.html"
-        ><i class="fas fa-home fa-lg" title="Home" style="color: #86f5f7"></i
-      ></a>
+    <head></head>
+    <main class="content">
+      <section class="quiz-card">
+        <div class="quiz-card__bookmark">
+          <i
+            class="fas fa-bookmark fa-lg"
+            title="Bookmarks"
+            style="color: #86f5f7"
+          ></i>
+        </div>
+        <article class="quiz-card_text m-0">
+          <h2 class="quiz-card__headline m-0">Question:</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+            totam deserunt cupiditate alias consequuntur dolorem cumque modi
+            voluptatum. Repellat voluptatibus culpa esse? &nbsp;
+          </p>
+          <button class="quiz-card__btn p-5">Show Answer</button>
+          <ul class="quiz-card__tag-list p-10">
+            <li class="p-5">Answer A</li>
+            <li class="p-5">Answer B</li>
+            <li class="p-5">Answer C</li>
+            <li class="p-5">Anser D</li>
+          </ul>
+        </article>
+      </section>
+      <section class="quiz-card">
+        <article></article>
+      </section>
+      <section class="quiz-card">
+        <article></article>
+      </section>
+    </main>
+    <footer class="navigation p-10">
+      <a href="index.html">
+        <i class="fas fa-home fa-lg" title="Home" style="color: #86f5f7"> </i>
+      </a>
       <a href="bookmark.html"
         ><i
           class="fas fa-bookmark fa-lg"
@@ -30,17 +66,17 @@
       <a href="create.html"
         ><i
           class="fas fa-plus-square fa-lg"
-          style="color: #86f5f7"
           title="Create"
+          style="color: #86f5f7"
         ></i
       ></a>
       <a href="profile.html"
         ><i
           class="fas fa-id-badge fa-lg"
-          title="Profile"
+          title="Profile;"
           style="color: #86f5f7"
         ></i
       ></a>
-    </section>
+    </footer>
   </body>
 </html>

@@ -1,6 +1,12 @@
 .header {
-  background-color: #fdbb2d;
-  box-shadow: 1px 4px 29px 10px rgba(26, 19, 5, 0.21);
-  -webkit-box-shadow: 1px 4px 29px 10px rgba(26, 19, 5, 0.21);
-  -moz-box-shadow: 1px 4px 29px 10px rgba(26, 19, 5, 0.21);
+  background-color: var(--yellow-orange);
+  box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.05);
+  -webkit-box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.05);
+  -moz-box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.05);
+}
+
+.header__headline {
+  margin: 0;
+  text-align: center;
+  color: #fad991;
 }

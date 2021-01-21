@@ -17,23 +17,14 @@
   </head>
   <body class="app-grid">
     <section class="header">
-      <h1 class="header__heading p-10">QUIZ APP</h1>
+      <h1 class="header__headline p-10">QUIZ APP</h1>
     </section>
-    <section class="content">
-      <head></head>
-      <main>
-        <!-- Ich komm nicht drauf, warum mein Bookmark sich nicht an der Box als Container orientert, um hier eine absolute Position einzunehmen. Hilfe bitte :-) -->
-
-        <section class="quiz-card quiz-card__box">
-          <!-- <span class="quiz-card__bookmark--icon"> -->
-          <i
-            class="fas fa-bookmark fa-lg"
-            title="Bookmarks"
-            style="color: #86f5f7; font-size: 2em"
-          ></i>
-          <!-- </span> -->
+    <head></head>
+    <main class="content">
+      <section class="quiz-card">
+        <div class="quiz-card__bookmark">
           <article class="quiz-card_text m-0">
-            <h2 class="quiz-card__heading m-0">Question:</h2>
+            <h2 class="quiz-card__headline m-0">Question:</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Assumenda totam deserunt cupiditate alias consequuntur dolorem
@@ -41,15 +32,21 @@
             </p>
             <button class="quiz-card__btn p-5">Show Answer</button>
             <ul class="quiz-card__tag-list p-10">
-              <li class="quiz-card__tag-list--item p-5">Answer A</li>
-              <li class="quiz-card__tag-list--item p-5">Answer B</li>
-              <li class="quiz-card__tag-list--item p-5">Answer C</li>
-              <li class="quiz-card__tag-list--item p-5">Anser D</li>
+              <li class="p-5">Answer A</li>
+              <li class="p-5">Answer B</li>
+              <li class="p-5">Answer C</li>
+              <li class="p-5">Anser D</li>
             </ul>
           </article>
-        </section>
-      </main>
-    </section>
+        </div>
+      </section>
+      <section class="quiz-card">
+        <article></article>
+      </section>
+      <section class="quiz-card">
+        <article></article>
+      </section>
+    </main>
     <section class="navigation p-10">
       <a href="index.html">
         <i class="fas fa-home fa-lg" title="Home" style="color: #86f5f7" ;> </i>

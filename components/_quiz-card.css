@@ -2,53 +2,53 @@
   border-radius: 15px;
   padding: 25px;
   margin: 20px;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-}
-
-.quiz-card__box {
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.3;
   box-shadow: var(--box-shadow);
+  position: relative;
 }
 
-.quiz-card__heading {
+.quiz-card__headline {
   font-size: 1.1em;
+  opacity: 1.2;
 }
 
-.quiz-card__bookmark--icon {
+.quiz-card__bookmark {
   position: absolute;
   height: 30px;
-  right: 30px;
+  width: 0;
+  right: 20px;
   top: -1px;
+  /* border: 15px solid var(--aqua);
+  border-bottom-color: transparent; */
 }
 
 .quiz-card__btn {
   background-color: var(--aqua);
   border: none;
   border-radius: 5px;
-  opacity: 0.8;
+  opacity: 1.2;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 .quiz-card__tag-list {
+  margin: 0 0 3px 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-wrap:
-  margin: 0 0 3px 0;
-  padding: 0;
+  opacity: 1.2;
 }
 
-.quiz-card__tag-list--item {
+.quiz-card__tag-list li {
   background-color: var(--aqua);
   box-shadow: 2px 2px 6px var(--box-shadow);
   list-style-type: none;
   opacity: 0.8;
   border-radius: 5px;
-  margin-left: 2px;
   margin-bottom: 5px;
   width: 48%;
   text-align: center;
+  opacity: 1;
 }

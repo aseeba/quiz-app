@@ -21,10 +21,11 @@
   "homepage": "https://github.com/badabam/quiz-app#readme",
   "description": "",
   "devDependencies": {
-    "live-server": "^1.2.1",
     "htmlhint": "^0.14.2",
+    "live-server": "^1.2.1",
     "prettier": "2.2.1",
     "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0"
   }
 }

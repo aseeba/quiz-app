@@ -1,8 +1,7 @@
 .header {
-  background-color: var(--yellow-orange);
-  box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.05);
-  -webkit-box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.05);
-  -moz-box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.05);
+  box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.5);
+  -webkit-box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.08);
+  -moz-box-shadow: 4px 1px 25px 10px rgba(26, 19, 5, 0.08);
 }
 
 .header__headline {

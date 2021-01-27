@@ -12,3 +12,4 @@ $ cd quiz-app
 $ npm i # install all dependencies
 $ npm test # run tests
 ```
+# quiz-app

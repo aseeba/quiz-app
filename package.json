@@ -19,9 +19,9 @@
     "url": "git+git@github.com:aseeba/quiz-app.git"
   },
   "bugs": {
-    "url": "https://github.com/badabam/quiz-app/issues"
+    "url": "https://github.com:AnjaSeeba/issues"
   },
-  "homepage": "https://github.com/badabam/quiz-app#readme",
+  "homepage": "https://github.com:AnjaSeeba/quiz-app.git#readme",
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.12.10",

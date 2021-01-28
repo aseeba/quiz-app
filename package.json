@@ -5,7 +5,7 @@
     "prettier:write": "prettier --write .",
     "stylelint": "npx stylelint \"**/*.css\"",
     "test": "htmlhint && prettier --check . && npm run stylelint",
-    "start": "live-server --port=4000 --no-css-inject snowpack dev",
+    "start": "--port=4000 --no-css-inject snowpack dev",
     "stylelint-check": "stylelint-config-prettier-check",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

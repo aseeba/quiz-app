@@ -26,14 +26,6 @@
   border-bottom-color: transparent; */
 }
 
-.quiz-card__btn {
-  background-color: var(--aqua);
-  border: none;
-  border-radius: 5px;
-  width: 100%;
-  margin-bottom: 5px;
-}
-
 .quiz-card__tag-list {
   margin: 0 0 3px 0;
   padding: 0;

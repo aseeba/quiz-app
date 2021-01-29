@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/87c9eac3be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer type="module" src="./js/index.js"></script>
   </head>
-  <body>
-    <h1>Bookmarks</h1>
+  <body class="app-grid">
+    <section class="header">
+      <h1 class="header__headline p-10">BOOKMARKS</h1>
+    </section>
+    <main class="content">
+      <section class="quiz-card">
+        <a href="" role="button" class="quiz-card__bookmark">
+          <i class="fas fa-bookmark"></i>
+        </a>
+          <article class="quiz-card_text m-0">
+            <h2 class="quiz-card__headline m-0">Question:</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Assumenda totam deserunt cupiditate alias consequuntur dolorem
+              cumque modi voluptatum. Repellat voluptatibus culpa esse? &nbsp;
+            </p>
+            <button class="quiz-card__btn p-5">Show Answer</button>
+            <ul class="quiz-card__tag-list">
+              <li class="p-5">Answer A</li>
+              <li class="p-5">Answer B</li>
+              <li class="p-5">Answer C</li>
+              <li class="p-5">Anser D</li>
+            </ul>
+          </article>
+        </i>
+      </section>
+      <section class="quiz-card">
+        <a href="" role="button" class="quiz-card__bookmark">
+          <i class="fas fa-bookmark"></i>
+        </a>
+          <article class="quiz-card_text m-0">
+            <h2 class="quiz-card__headline m-0">Question:</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Assumenda totam deserunt cupiditate alias consequuntur dolorem
+              cumque modi voluptatum. Repellat voluptatibus culpa esse? &nbsp;
+            </p>
+            <button class="quiz-card__btn p-5">Show Answer</button>
+            <ul class="quiz-card__tag-list">
+              <li class="p-5">Answer A</li>
+              <li class="p-5">Answer B</li>
+              <li class="p-5">Answer C</li>
+              <li class="p-5">Anser D</li>
+            </ul>
+          </article>
+        </i>
+      </section>
+    </main>
+    <section class="navigation p-10">
+      <a href="index.html" data-js="home">
+        <i class="fas fa-home fa-lg" title="Home" style="color: #86f5f7" ;> </i>
+      </a>
+      <a href="bookmark.html" data-js="Bookmark"
+        ><i
+          class="fas fa-bookmark fa-lg"
+          title="Bookmarks"
+          style="color: #86f5f7"
+        ></i
+      ></a>
+      <a href="create.html" data-js="Create"
+        ><i
+          class="fas fa-plus-square fa-lg"
+          title="Create"
+          style="color: #86f5f7"
+        ></i
+      ></a>
+      <a href="profile.html" data-js="Profile"
+        ><i
+          class="fas fa-id-badge fa-lg"
+          title="Profile;"
+          style="color: #86f5f7"
+        ></i
+      ></a>
+    </section>
   </body>
 </html>

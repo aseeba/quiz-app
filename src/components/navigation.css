@@ -1,9 +1,25 @@
 .navigation {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: var(--aqua);
   box-shadow: 1px 4px 29px 10px rgba(4, 23, 24, 0.15);
   -webkit-box-shadow: 1px 4px 29px 10px rgba(4, 23, 24, 0.15);
   -moz-box-shadow: 1px 4px 29px 10px rgba(4, 23, 24, 0.15);
-  font-size: 20px;
+}
+
+.navigation__icon {
+  align-items: center;
+  color: var(--light-aqua);
+  text-decoration: none;
+  font-size: 25px;
+  widht
+  height: 30px;
+}
+
+.navigation__icon--active {
+  color: var(--dark-aqua);
+}
+.navigation__icon-text {
+  font-size: 12px;
 }

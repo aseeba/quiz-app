@@ -30,6 +30,9 @@
             type="text" rows="5"
             placeholder="For example: Choose the correct HTML tag for the largest heading?"
           ></textarea>
+          Add only four possible answers, devided by commas.  
+          <input id="tag-input" class="create-form__textarea" type="text" name="tag-input" required="" rows="3" placeholder="For example: header, h1, heading, h6">
+          <label for="">
         Add your more detailed answer here.
         <label for="question">
           <textarea
@@ -39,38 +42,23 @@
             placeholder="For example: h1 tag is the right one. But the largest one is a bit misleading here. It is used as the main heading in the HTML document and there should only be one of these on the page. But there's no default for the size. You can make it the size you need."
           ></textarea>
         </label>
-        Add only four possible answers, devided by commas.  
-        <input id="tag-input" class="create-form__textarea" type="text" name="tag-input" required="" rows="3" placeholder="For example: header, h1, heading, h6">
-        <label for="">
           <button class="p-10">Submit</button>
         </label>
       </form>
     </main>
-    <section class="navigation p-10">
-      <a href="index.html" data-js="home">
-        <i class="fas fa-home fa-lg" title="Home" style="color: #86f5f7" ;> </i>
+    <footer class="navigation p-10">
+      <a href="index.html" class="navigation__icon">
+        <i class="fas fa-home"></i>
       </a>
-      <a href="bookmark.html" data-js="Bookmark"
-        ><i
-          class="fas fa-bookmark fa-lg"
-          title="Bookmarks"
-          style="color: #86f5f7"
-        ></i
+      <a href="./" class="navigation__icon"
+        ><i class="fas fa-bookmark"></i
       ></a>
-      <a href="create.html" data-js="Create"
-        ><i
-          class="fas fa-plus-square fa-lg"
-          title="Create"
-          style="color: #86f5f7"
-        ></i
+      <a href="./" class="navigation__icon navigation__icon--active"
+        ><i class="fas fa-plus-square"></i
       ></a>
-      <a href="profile.html" data-js="Profile"
-        ><i
-          class="fas fa-id-badge fa-lg"
-          title="Profile;"
-          style="color: #86f5f7"
-        ></i
+      <a href="profile.html" class="navigation__icon"
+        ><i class="fas fa-id-badge"></i
       ></a>
-    </section>
+    </footer>
   </body>
 </html>

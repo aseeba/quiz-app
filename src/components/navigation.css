@@ -9,12 +9,17 @@
 }
 
 .navigation__icon {
+  align-items: center;
   color: var(--light-aqua);
   text-decoration: none;
   font-size: 25px;
-  align-items: center;
+  widht
+  height: 30px;
 }
 
 .navigation__icon--active {
   color: var(--dark-aqua);
+}
+.navigation__icon-text {
+  font-size: 12px;
 }

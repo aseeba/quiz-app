@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--aqua);
   box-shadow: 1px 4px 29px 10px rgba(4, 23, 24, 0.15);
@@ -13,13 +13,11 @@
   color: var(--light-aqua);
   text-decoration: none;
   font-size: 25px;
-  widht
   height: 30px;
+  width: 100%;
+  text-align: center;
 }
 
 .navigation__icon--active {
   color: var(--dark-aqua);
-}
-.navigation__icon-text {
-  font-size: 12px;
 }

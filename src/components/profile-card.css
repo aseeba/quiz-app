@@ -10,10 +10,11 @@
 }
 
 .profile-card__pic {
-  background: url(../assets/placeholder.png);
+  background: url(../assets/placeholder.jpg);
   background-position: center;
   background-size: cover;
   border: none;
+  border-style: hidden;
   width: auto;
 }
 

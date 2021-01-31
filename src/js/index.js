@@ -1,8 +1,6 @@
-console.log('Hello world')
-
 console.clear()
 
-// Navigation
+// ======== Navigation ============
 
 const home = document.querySelector('[data-js="home"]')
 const bookmark = document.querySelector('[data-js="bookmark"]')
@@ -61,3 +59,18 @@ profileButton.addEventListener('click', () => {
   create.classList.add('hidden')
   profile.classList.remove('hidden')
 })
+
+// ======== Show Answer ============
+
+const cards = document.querySelectorAll('[data-js="card"]')
+
+cards.forEach(card => {
+  const showAnswerButton = card.querySelector('[data-js="show-answer-button"]')
+  const showAnswer = card.querySelector('[data-js="answer"]')
+
+  showAnswerButton.addEventListener('click', () => {
+    showAnswer.classList.toggle('hidden')
+  })
+})
+
+// ======== Show Answer ============

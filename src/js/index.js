@@ -1,18 +1,20 @@
+import getByDataJs from './getByDataJs'
+
 console.log('Hello world')
 
 console.clear()
 
 // Navigation
 
-const home = document.querySelector('[data-js="home"]')
-const bookmark = document.querySelector('[data-js="bookmark"]')
-const create = document.querySelector('[data-js="create"]')
-const profile = document.querySelector('[data-js="profile"]')
+const home = getByDataJs('home')
+const bookmark = getByDataJs('bookmark')
+const create = getByDataJs('create')
+const profile = getByDataJs('profile')
 
-const homeButton = document.querySelector('[data-js="home-button"]')
-const bookmarkButton = document.querySelector('[data-js="bookmark-button"]')
-const createButton = document.querySelector('[data-js="create-button"]')
-const profileButton = document.querySelector('[data-js="profile-button"]')
+const homeButton = getAllByDataJs('home-button')
+const bookmarkButton = getAllByDataJs('bookmark-button')
+const createButton = getAllByDataJs('create-button')
+const profileButton = getAllByDataJs('profile-button')
 
 homeButton.addEventListener('click', () => {
   homeButton.classList.add('navigation__icon--active')
@@ -62,36 +64,36 @@ profileButton.addEventListener('click', () => {
   profile.classList.remove('hidden')
 })
 
-======== Zeichenlimit Formular ==========
+// ======== Zeichenlimit Formular ========== (inProgress)
 
-const setQuestion = getElement('question')
-const setAnswer = getElement('answer')
-const setTags = getElement('tags')
+// const setQuestion = getElement('question')
+// const setAnswer = getElement('answer')
+// const setTags = getElement('tags')
 
-function getElement(dataJsName) {
-  return document.querySelector(`[data-js="${dataJsName}"]`)
-}
+// function getElement(dataJsName) {
+//   return document.querySelector(`[data-js="${dataJsName}"]`)
+// }
 
-const charLimit = getElement('charLimit')
-setQuestion.addEventListener('input', () => {
-  const maxChars = 100
-  const charsUsed = setQuestion.nodeValue.length
-  const charsLeft = maxChars - charsUsed
-  charLimit.textContent = charsUsed + ' / ' + charsLeft
-})
+// const charLimit = getElement('charLimit')
+// setQuestion.addEventListener('input', () => {
+//   const maxChars = 100
+//   const charsUsed = setQuestion.nodeValue.length
+//   const charsLeft = maxChars - charsUsed
+//   charLimit.textContent = charsUsed + ' / ' + charsLeft
+// })
 
-const charLimit = getElement('charLimit')
-setAnswer.addEventListener('input', () => {
-  const maxChars = 100
-  const charsUsed = setQuestion.nodeValue.length
-  const charsLeft = maxChars - charsUsed
-  charLimit.textContent = charsUsed + ' / ' + charsLeft
-})
+// const charLimit = getElement('charLimit')
+// setAnswer.addEventListener('input', () => {
+//   const maxChars = 100
+//   const charsUsed = setQuestion.nodeValue.length
+//   const charsLeft = maxChars - charsUsedgst
+//   charLimit.textContent = charsUsed + ' / ' + charsLeft
+// })
 
-const charLimit = getElement('charLimit')
-setTags.addEventListener('input', () => {
-  const maxChars = 75
-  const charsUsed = setQuestion.nodeValue.length
-  const charsLeft = maxChars - charsUsed
-  charLimit.textContent = charsUsed + ' | ' + charsLeft
-})
+// const charLimit = getElement('charLimit')
+// setTags.addEventListener('input', () => {
+//   const maxChars = 75
+//   const charsUsed = setQuestion.nodeValue.length
+//   const charsLeft = maxChars - charsUsed
+//   charLimit.textContent = charsUsed + ' | ' + charsLeft
+// })

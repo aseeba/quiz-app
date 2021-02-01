@@ -14,7 +14,7 @@
       src="https://kit.fontawesome.com/87c9eac3be.js"
       crossorigin="anonymous"
     ></script>
-    <script defer type="module" src="./js/index.js"></script>
+    <script defer type="module" src="./components/js/index.js"></script>
   </head>
   <body class="app-grid">
     <section class="header">
@@ -23,7 +23,7 @@
 
     <!-- HOME -->
 
-    <main data-js="home">
+    <main data-js="page" data-name="home">
       <section class="quiz-card">
         <a href="" role="button" class="quiz-card__bookmark">
           <i class="far fa-bookmark"></i>
@@ -112,7 +112,7 @@
 
     <!-- BOOKMARK -->
 
-    <main class="hidden" data-js="bookmark">
+    <main data-js="page" data-name="bookmark">
       <section class="quiz-card">
         <a href="" role="button" class="quiz-card__bookmark">
           <i class="fas fa-bookmark"></i>
@@ -159,7 +159,7 @@
 
     <!-- CREATE -->
 
-    <main class="hidden" data-js="create">
+    <main data-js="page" data-name="create">
       <form class="create-form">
         Add your Question here.
         <label for="question">
@@ -188,7 +188,7 @@
 
     <!-- PROFILE -->
 
-    <main class="hidden" data-js="profile">
+    <main data-js="page" data-name="profile>
       <section class="profile-card profile-card__pic p-0">
         <img src="../src/assets/placeholder.png" alt="" width="300" height="200">
     </section>
@@ -219,13 +219,13 @@
     <!-- NAVIGATION -->
     <footer>
       <nav class="navigation p-10-20">
-         <i role="button" class="fas fa-home navigation__icon" data-js="home-button"></i>
+         <i role="button" class="fas fa-home navigation__icon" data-js="nav" data-name="home"></i>
 
-        <i role="button" class="fas fa-bookmark navigation__icon" data-js="bookmark-button"></i>
+        <i role="button" class="fas fa-bookmark navigation__icon" data-js="nav" data-name="bookmark"></i>
 
-        <i role="button" class="fas fa-plus-square navigation__icon" data-js="create-button"></i>
+        <i role="button" class="fas fa-plus-square navigation__icon" data-js="nav" data-name="create"></i>
 
-        <i role="button" class="fas fa-id-badge navigation__icon" data-js="profile-button"></i>
+        <i role="button" class="fas fa-id-badge navigation__icon" data-js="nav" data-name="profile"></i>
         <nav>
     </footer>
 

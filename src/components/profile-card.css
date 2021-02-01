@@ -27,15 +27,15 @@
 @media only screen and (min-width: 768px) {
   .grid-wrapper {
     display: grid;
-    grid-template-colums: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-rows: 2;
+  }
 
-    .profile-card__pic {
-      height: 100% !important;
-      width: 250px;
-      object-fit: cover;
-      object-position: top center;
-    }
+  .profile-card__pic {
+    height: 100% !important;
+    width: 250px;
+    object-fit: cover;
+    object-position: top center;
   }
 }
 

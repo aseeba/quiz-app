@@ -61,3 +61,37 @@ profileButton.addEventListener('click', () => {
   create.classList.add('hidden')
   profile.classList.remove('hidden')
 })
+
+======== Zeichenlimit Formular ==========
+
+const setQuestion = getElement('question')
+const setAnswer = getElement('answer')
+const setTags = getElement('tags')
+
+function getElement(dataJsName) {
+  return document.querySelector(`[data-js="${dataJsName}"]`)
+}
+
+const charLimit = getElement('charLimit')
+setQuestion.addEventListener('input', () => {
+  const maxChars = 100
+  const charsUsed = setQuestion.nodeValue.length
+  const charsLeft = maxChars - charsUsed
+  charLimit.textContent = charsUsed + ' / ' + charsLeft
+})
+
+const charLimit = getElement('charLimit')
+setAnswer.addEventListener('input', () => {
+  const maxChars = 100
+  const charsUsed = setQuestion.nodeValue.length
+  const charsLeft = maxChars - charsUsed
+  charLimit.textContent = charsUsed + ' / ' + charsLeft
+})
+
+const charLimit = getElement('charLimit')
+setTags.addEventListener('input', () => {
+  const maxChars = 75
+  const charsUsed = setQuestion.nodeValue.length
+  const charsLeft = maxChars - charsUsed
+  charLimit.textContent = charsUsed + ' | ' + charsLeft
+})
